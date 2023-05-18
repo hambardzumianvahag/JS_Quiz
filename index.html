@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<button class="start" role="button">Start Quiz</button>
+	<div id="clockdiv"></div>
+	<div class="main">
+		<div class="question_1">
+			<h4>1.let array = [1, 2, 3]; <br>
+				array[6] = 9; <br>
+				console.log(array[5]);
+			</h4>
+			<ul>
+				<li class="right"><input name='first' class="radio" value="right" type="radio">undefined</li>
+				<li class="wrong"><input name='first' class="radio" value="wrong" type="radio">2</li>
+				<li class="wrong"><input name='first' class="radio" value="wrong" type="radio">9</li>
+				<li class="wrong"><input name='first' class="radio" value="wrong" type="radio">1</li>
+			</ul>
+		</div>
+		<div class="question_2">
+			<h4>2.console.log(('b' + 'a' + + 'a' + 'a').toLowerCase());</h4>
+			<ul>
+				<li class="wrong"><input name='second' class="radio" value="wrong" type="radio">bananaa</li>
+				<li class="wrong"><input name='second' class="radio" value="wrong" type="radio">baaa</li>
+				<li class="wrong"><input name='second' class="radio" value="wrong" type="radio">banaa</li>
+				<li class="right"><input name='second' class="radio" value="right" type="radio">banana</li>
+			</ul>
+		</div>
+		<div class="question_3">
+			<h4>3.console.log(3 > 2 > 1);</h4>
+			<ul>
+				<li class="wrong"><input name='third' class="radio" value="wrong" type="radio">true</li>
+				<li class="right"><input name='third' class="radio" value="right" type="radio">false</li>
+			</ul>
+		</div>
+		<div class="question_4">
+			<h4>4.console.log(0.1 + 0.2 == 0.3);</h4>
+			<ul>
+				<li class="wrong"><input name='four' class="radio" value="wrong" type="radio">true</li>
+				<li class="right"><input name='four' class="radio" value="right" type="radio">false</li>
+			</ul>
+		</div>
+		<div class="question_5">
+			<h4>5.console.log(false == '0');</h4>
+			<ul>
+				<li class="wrong"><input name='five' class="radio" value="right" type="radio">true</li>
+				<li class="right"><input name='five' class="radio" value="wrong" type="radio">false</li>
+			</ul>
+		</div>
+		<div class="question_6">
+			<h4>6.console.log(018 - 015);</h4>
+			<ul>
+				<li class="wrong"><input name='six' class="radio" value="wrong" type="radio">NaN</li>
+				<li class="wrong"><input name='six' class="radio" value="wrong" type="radio">3</li>
+				<li class="wrong"><input name='six' class="radio" value="right" type="radio">5</li>
+				<li class="right"><input name='six' class="radio" value="wrong" type="radio">13</li>
+			</ul>
+		</div>
+		<div class="question_7">
+			<h4>7.console.log(typeof NaN);</h4>
+			<ul>
+				<li class="wrong"><input name='seven' class="radio" value="wrong" type="radio">NaN</li>
+				<li class="wrong"><input name='seven' class="radio" value="right" type="radio">number</li>
+				<li class="wrong"><input name='seven' class="radio" value="wrong" type="radio">null</li>
+				<li class="right"><input name='seven' class="radio" value="wrong" type="radio">undefined</li>
+			</ul>
+		</div>
+		<div class="question_8">
+			<h4>8.const numbers = [33, 2, 8]; <br>
+				numbers.sort(); <br>
+				console.log(numbers[1])</h4>
+			<ul>
+				<li class="wrong"><input name='eight' class="radio" value="right" type="radio">33</li>
+				<li class="wrong"><input name='eight' class="radio" value="wrong" type="radio">2</li>
+				<li class="wrong"><input name='eight' class="radio" value="wrong" type="radio">8</li>
+				<li class="right"><input name='eight' class="radio" value="wrong" type="radio">1</li>
+			</ul>
+		</div>
+		<div class="question_9">
+			<h4>9.console.log(1 + "2" + "2");</h4>
+			<ul>
+				<li class="wrong"><input name='nine' class="radio" value="right" type="radio">122</li>
+				<li class="wrong"><input name='nine' class="radio" value="wrong" type="radio">32</li>
+				<li class="wrong"><input name='nine' class="radio" value="wrong" type="radio">NaN</li>
+				<li class="right"><input name='nine' class="radio" value="wrong" type="radio">14</li>
+			</ul>
+		</div>
+		<div class="question_10">
+			<h4>10.var arr = [5, 22, 14, 9];<br>
+				arr.sort();
+				console.log(arr[0])
+			</h4>
+			<ul>
+				<li class="wrong"><input name='ten' class="radio" value="wrong" type="radio">5</li>
+				<li class="wrong"><input name='ten' class="radio" value="wrong" type="radio">22</li>
+				<li class="wrong"><input name='ten' class="radio" value="wrong" type="radio">9</li>
+				<li class="right"><input name='ten' class="radio" value="right" type="radio">14</li>
+			</ul>
+		</div>
+		<div class="result"></div>
+		<button class="submit">Submit</button>
+	</div>
+</body>
+<script src="./script.js"></script>
+
+</html>
